@@ -1,0 +1,97 @@
+# Core Framework
+reflex>=0.4.0
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+
+# AI/ML Core with Advanced Models
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-anthropic>=0.1.0
+langchain-community>=0.0.10
+langchain-experimental>=0.0.50
+langchain-core>=0.1.0
+langfuse>=2.0.0
+openai>=1.6.0
+anthropic>=0.8.0
+transformers>=4.36.0
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+sentence-transformers>=2.2.2
+accelerate>=0.25.0
+bitsandbytes>=0.42.0
+
+# Advanced Embedding Models
+colbert-ai>=0.2.0
+ragatouille>=0.0.6
+FlagEmbedding>=1.2.0
+
+# OSS Generation Models  
+ctransformers>=0.2.0
+llama-cpp-python>=0.2.0
+auto-gptq>=0.7.0
+
+# Free Vector Databases
+qdrant-client>=1.7.0
+chromadb>=0.4.20
+weaviate-client>=3.25.0
+pinecone-client>=2.2.0
+faiss-cpu>=1.7.4
+annoy>=1.17.0
+lancedb>=0.4.0
+
+# Multimodal Processing
+pillow>=10.1.0
+opencv-python>=4.8.1
+# openai-whisper>=20231117  # Build issues - use transformers whisper instead
+pypdf2>=3.0.1
+python-multipart>=0.0.6
+moviepy>=1.0.3
+librosa>=0.10.0
+beautifulsoup4>=4.12.0
+markdown>=3.5.0
+python-docx>=1.1.0
+# textract>=1.6.0  # Disabled due to build issues
+chardet>=5.2.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.24.0
+aiofiles>=23.2.0
+httpx>=0.25.0
+
+# Database
+asyncpg>=0.29.0
+sqlalchemy[asyncio]>=2.0.0
+alembic>=1.13.0
+redis>=5.0.0
+
+# Authentication & Security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6
+
+# Monitoring & Logging
+prometheus-client>=0.19.0
+structlog>=23.2.0
+sentry-sdk[fastapi]>=1.39.0
+
+# Development
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+black>=23.10.0
+isort>=5.12.0
+flake8>=6.1.0
+mypy>=1.7.0
+pre-commit>=3.6.0
+
+# Production
+gunicorn>=21.2.0
+celery[redis]>=5.3.0
+
+# Ollama for local models
+ollama>=0.1.0
